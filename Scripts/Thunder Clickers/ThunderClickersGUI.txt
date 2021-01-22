@@ -2,7 +2,7 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua"))()
 local venyx = library.new("Thunder Clickers GUI", 5013109572)
 
---update 1
+--test
 
 -- themes
 local themes = {
@@ -207,7 +207,7 @@ end)
 local page2 = venyx:addPage("GUI Settings", 6280524560)
 local section1a = page2:addSection("Settings")
 
-section1a:addKeybind("Toggle Keybind", Enum.KeyCode.RShift, function()
+section1a:addKeybind("Toggle Keybind", Enum.KeyCode.RightShift, function()
 print("Activated Keybind")
 venyx:toggle()
 end, function()
